@@ -86,4 +86,4 @@ FOREIGN KEY (trainer_id) REFERENCES Trainers(trainer_id)
 
 -- 3. СТВОРЕННЯ ІНДЕКСІВ ДЛЯ ОПТИМІЗАЦІЇ (як у питанні 8 нашого тесту)
 CREATE INDEX idx_member_email ON Members(email);
-CREATE INDEX idx_class_schedule ON Classes(class_schedule);                                                                                                                                                                  
+CREATE INDEX idx_class_schedule ON Classes(class_schedule);
